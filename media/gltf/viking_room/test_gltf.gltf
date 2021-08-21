@@ -1,0 +1,141 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13716,
+            "type": "VEC3",
+            "max": [
+                0.7566919922828674,
+                0.45287200808525088,
+                2.457210063934326
+            ],
+            "min": [
+                -0.5601379871368408,
+                -0.2533549964427948,
+                1.4591400623321534
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13716,
+            "type": "VEC2",
+            "max": [
+                0.997564971446991,
+                0.5038659572601318
+            ],
+            "min": [
+                0.0014280000468716026,
+                0.0012890100479125977
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 69690,
+            "type": "SCALAR",
+            "max": [
+                13715
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 553080,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 164592,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 164592,
+            "byteLength": 109728,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 274320,
+            "byteLength": 278760,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "TextureAtlas_1001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TexturedMesh",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "TEXCOORD_0": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "TexturedMesh",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
